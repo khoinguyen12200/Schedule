@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#000"
+    android:id="@+id/item_widget_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/item_widget_day"
+        android:text="item"
+        android:background="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#FFF"
+        android:id="@+id/item_widget_time"
+        android:text="item"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFF"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/item_widget_name"
+        android:text="item"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/item_widget_location"
+        android:text="item"
+        android:textColor="#FFF"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+
+
+
+

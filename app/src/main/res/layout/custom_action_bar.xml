@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#FFF"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dehaze_black_24dp"/>
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_add_black_24dp" />
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/add"
+        android:layout_toLeftOf="@+id/add"
+        android:src="@drawable/ic_list_black_24dp" />
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/list"
+        android:layout_toLeftOf="@+id/list"
+        android:src="@drawable/ic_tune_black_24dp" />
+
+
+</RelativeLayout>

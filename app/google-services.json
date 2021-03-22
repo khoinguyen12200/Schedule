@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14160360215",
+    "firebase_url": "https://quang-cao-7a43c.firebaseio.com",
+    "project_id": "quang-cao-7a43c",
+    "storage_bucket": "quang-cao-7a43c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14160360215:android:9df41d1c49bacf761bfd52",
+        "android_client_info": {
+          "package_name": "com.example.schedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14160360215-hmn72asj15to9tue15tscfqh3ln91rpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5tV9dPW0LOCkzuUMjLRFJ_afK9BcHaSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14160360215-hmn72asj15to9tue15tscfqh3ln91rpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

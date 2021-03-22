@@ -1,0 +1,59 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="audio_vaulues">
+        <item>baothuc1</item>
+        <item>baothuc2</item>
+        <item>baothuc3</item>
+        <item>baothuc4</item>
+    </string-array>
+    <string-array name="audio_notification_vaulues">
+        <item>none</item>
+        <item>done_for_you</item>
+        <item>got_it_done</item>
+        <item>juntos</item>
+        <item>definite</item>
+        <item>case_closed</item>
+
+    </string-array>
+    <integer-array name="color_list">
+        <item>@color/colorAccent</item>
+        <item>@color/colorgreen</item>
+        <item>@color/colorDarkGreen</item>
+        <item>@color/colorDarkerGreen</item>
+        <item>@color/colorPrimaryAcent</item>
+        <item>@color/colorskyblue</item>
+        <item>@color/colorPrimaryBlue</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryPurple</item>
+
+        <item>@color/colorDarkOrange</item>
+        <item>@color/colorYellow</item>
+        <item>@color/colororange</item>
+        <item>@color/colorlipsred</item>
+        <item>@color/colorDarkRed</item>
+        <item>@color/colorgroundred</item>
+        <item>@color/colorPrimaryPink</item>
+        <item>@color/colorGray</item>
+        <item>@color/colorBlack</item>
+
+
+    </integer-array>
+    <integer-array name="minute_add">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+
+</resources>

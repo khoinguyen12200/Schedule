@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:id="@+id/full"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginHorizontal="1.5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1.5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+        <com.google.android.flexbox.FlexboxLayout
+            app:justifyContent="center"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexWrap="wrap">
+            <TextView
+                android:layout_marginHorizontal="5dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test"/>
+            <TextView
+                android:layout_marginHorizontal="5dp"
+                android:background="#fff"
+                android:textColor="#000"
+                android:gravity="center"
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test"/>
+        </com.google.android.flexbox.FlexboxLayout>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+        <TextView
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"
+            android:textColor="#C3FFFFFF"
+            android:gravity="center"
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/note"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/quarter_circle_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

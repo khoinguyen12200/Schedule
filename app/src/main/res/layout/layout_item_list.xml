@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:elevation="4dp"
+        android:gravity="top|center_horizontal"
+        android:weightSum="20"
+        android:padding="5dp"
+        android:background="@drawable/item_list_custom"
+        android:layout_margin="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:rotation="90"
+            android:id="@+id/color"
+            android:src="@drawable/icon_event"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:id="@+id/name"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="15"
+            android:layout_height="match_parent"
+            android:text="@string/Events"/>
+        <LinearLayout
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+            <ImageView
+
+                android:id="@+id/alarm"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alarm_black"/>
+            <ImageView
+                android:id="@+id/noti"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notification_black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
